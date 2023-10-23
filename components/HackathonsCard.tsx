@@ -75,9 +75,7 @@ export default function HackathonsCard({ hackathons }: Props) {
         <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-md'>
           Participate in hackathons and team up to build the next world-changing
           product. Hackathons encourage out-of-the-box thinking from people.
-          Hackathons are great for skill development. You'll have the
-          opportunity to learn technical skills from coding and software
-          development to project management. Many hackathons also have workshops
+          Hackathons are great for skill development in programming
         </p>
 
         <div className='max-w-md mt-7 font-bold'>

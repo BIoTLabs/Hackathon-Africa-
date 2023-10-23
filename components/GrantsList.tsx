@@ -58,10 +58,7 @@ export default function GrantsList({ grants }: Props) {
           Hackathons are great for skill development. You'll have the
           opportunity to learn technical skills from coding and software
           development to project management. Many hackathons also have
-          workshops. encourage out-of-the-box thinking from people. Hackathons
-          are great for skill development. You'll have the opportunity to learn
-          technical skills from coding and software development to project
-          management. Many hackathons also have workshops.
+          workshops.
         </p>
       </div>
     </section>
