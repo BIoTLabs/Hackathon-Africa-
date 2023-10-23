@@ -1,9 +1,7 @@
-import PastEvent from '@/components/PastEvent';
+import PastHackthons from '@/components/PastHackthons';
 import Image from 'next/image';
 
-type Props = {};
-
-export default function AboutPage({}: Props) {
+export default function AboutPage() {
   return (
     <div className='bg-[#FAFAFA] pb-10 flex lg:flex-row flex-col'>
       <div className='md:w-11/12 lg:px-20 flex flex-col px-5 w-full pt-10 md:pt-20 xxl:px-96'>
@@ -34,7 +32,7 @@ export default function AboutPage({}: Props) {
       </div>
 
       <div className='lg:w-10/12 xxl:px-96 mt-10 lg:mt-20'>
-        <PastEvent />
+        <PastHackthons />
       </div>
     </div>
   );

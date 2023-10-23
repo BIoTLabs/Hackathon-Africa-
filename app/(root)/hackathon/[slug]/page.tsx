@@ -9,6 +9,7 @@ type Props = {
   };
 };
 
+// Hackathon details: Ongoing hackathon cards on the landing page
 export default async function HackathonDetails({ params: { slug } }: Props) {
   const query = groq`
   *[_type == "hackathons" && slug.current == $slug][0] {

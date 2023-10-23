@@ -1,11 +1,10 @@
 import { icons } from '@/constants/index';
 import { BiLogoCodepen } from 'react-icons/bi';
 
-type Props = {};
-
-export default function AfterHero({}: Props) {
+// Section immediatedly after the hero page
+export default function AfterHero() {
   return (
-    <div className='my-20 lg:my-24 grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-20 px-5 xxl:px-96'>
+    <section className='my-20 lg:my-24 grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-20 px-5 xxl:px-96'>
       {icons.map((icon) => (
         <div key={icon.name}>
           <h2 className='text-[#FF761C]'>{icon.icon}</h2>
@@ -15,6 +14,6 @@ export default function AfterHero({}: Props) {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 }

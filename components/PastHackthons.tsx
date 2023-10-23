@@ -6,7 +6,7 @@ import ImageSlider from './ImageSlider';
 
 export const revalidate = 1000;
 
-export default async function PastEvent() {
+export default async function PastHackthons() {
   const query = groq`
   *[_type == "hackathon"] {
     title,
