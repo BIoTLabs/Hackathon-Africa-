@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Bootcamps({}: Props) {
   return (
-    <section className='px-5 py-10 lg:py-24 bg-[#FAFAFA] xxl:px-96 w-ful'>
+    <section className='px-5 py-10 lg:py-24 bg-[#FAFAFA] xxl:px-96 w-full'>
       <div className='md:grid place-items-center'>
         <h2 className='md:text-4xl text-3xl font-bold mt-0'>
           <span className='textGradient'>Bootcamps</span>
