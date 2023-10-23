@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className='bg-[#FAFAFA] pb-10 flex lg:flex-row flex-col'>
       <div className='md:w-11/12 lg:px-20 flex flex-col px-5 w-full pt-10 md:pt-20 xxl:px-96'>
         <h1 className='text-3xl font-bold'>About</h1>
-        <p className='mt-3 leading-8 w-full xxl:max-w-5xl'>
+        <p className='mt-3 leading-8 text-gray-500 w-full xxl:max-w-5xl'>
           Most African University education curriculum isn’t equipped with the
           requirements to facilitate growth in the digital age of the 4th
           industrial revolution. The graduates are pushed into an ecosystem they
@@ -20,7 +20,7 @@ export default function AboutPage() {
           other nations.
         </p>
 
-        <p className='leading-8 w-full xxl:max-w-5xl'>
+        <p className='leading-8 w-full xxl:max-w-5xl text-gray-500'>
           The Future of Tech lies in synergy of existing 4IR technologies and
           not in isolated solutions. Hackathon Africa provides the basis for
           University students among others to learn about Blockchain technology
