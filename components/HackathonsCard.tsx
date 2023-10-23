@@ -70,7 +70,7 @@ export default function HackathonsCard({ hackathons }: Props) {
 
       <div className='lg:w-4/12 w-full flex flex-col'>
         <h2 className='md:text-4xl text-3xl font-bold sm:mt-10 mt-0'>
-          Hackathons
+          Ongoing <span className='textGradient'>Hackathons</span>
         </h2>
         <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-md'>
           Participate in hackathons and team up to build the next world-changing
@@ -83,7 +83,7 @@ export default function HackathonsCard({ hackathons }: Props) {
             href='/hackathons'
             className='bg-[#FF761C] px-6 text-white py-4 rounded-md text-center block'
           >
-            View Hackathons
+            View All Hackathons
           </Link>
         </div>
       </div>

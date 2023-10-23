@@ -10,6 +10,7 @@ import grants from './schemas/grants';
 import allHackathons from './schemas/allHackathons';
 import bounties from './schemas/bounties';
 import airdrops from './schemas/airdrops';
+// import muxVideo from './schemas/muxVideo';
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [

@@ -10,7 +10,7 @@ export default async function AllHackathonsPage() {
   return (
     <>
       {/* Hero */}
-      <div className='pb-20 flex items-center lg:flex-row flex-col'>
+      <div className='pb-20 flex bg-[#FEFEFE] items-center lg:flex-row flex-col'>
         <div className='md:px-20 px-5 pt-10 md:pt-20 lg:w-7/12 w-full xxl:px-96'>
           <h1 className='text-3xl md:text-[56px] font-bold max-w-2xl leading-tight'>
             The Hub for Web3 and Web2{' '}
@@ -30,13 +30,16 @@ export default async function AllHackathonsPage() {
 
       <div className='bg-[#FAFAFA] pb-20 md:px-20 px-5 xxl:px-96 py-10 lg:py-24'>
         <h2 className='text-3xl font-bold mb-2'>
-          Explore <span className='textGradient'>hackathons</span>
+          Explore <span className='textGradient'>Hackathons</span>
         </h2>
 
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
           {hackathons.map((hackathon: any) => (
-            <Link href={`#`} key={hackathon._id}>
-              <div className='max-w-md bg-white border border-gray-300 rounded-lg shadow-sm h- relative'>
+            <Link
+              href={`/explore-hackathons/${hackathon.slug}`}
+              key={hackathon._id}
+            >
+              <div className='max-w-md bg-white border border-gray-300 rounded-lg shadow-sm relative'>
                 <img
                   className='rounded-t-lg h-48 object-cover'
                   src={urlForImage(hackathon?.mainImage).url()}
