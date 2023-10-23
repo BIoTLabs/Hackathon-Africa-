@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textGradient {
+  @apply bg-gradient-to-r from-orange-600 to-indigo-400 inline-block text-transparent bg-clip-text;
+}
+
+@layer components {
+  .core::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ee6f0c;
+    /* background: linear-gradient(#918cf8, #ee6f0c); */
+    clip-path: circle(10% at right 10%);
+    z-index: -50;
+  }
+}
