@@ -10,7 +10,7 @@ export default async function AllHackathonsPage() {
   return (
     <>
       {/* Hero */}
-      <div className='pb-20 flex bg-[#FAFAFA] !items-center lg:flex-row flex-col'>
+      <div className='pb-20 flex bg-[#FAFAFA] items-center lg:flex-row flex-col'>
         <div className='md:px-20 px-5 pt-10 md:pt-20 lg:w-7/12 w-full xxl:px-96'>
           <h1 className='text-3xl md:text-[56px] font-bold max-w-2xl leading-tight'>
             The Hub for Web3 and Web2{' '}
