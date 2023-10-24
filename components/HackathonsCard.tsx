@@ -72,12 +72,13 @@ export default function HackathonsCard({ hackathons }: Props) {
           Ongoing <span className='textGradient'>Hackathons</span>
         </h2>
         <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-md'>
-          Participate in hackathons and team up to build the next world-changing
-          product. Hackathons encourage out-of-the-box thinking from people.
-          Hackathons are great for skill development in programming
+          Participate in ongoing hackathons across Africa and team up to build a
+          world-changing product. Take a look at the latest Web2 and Web3
+          hackathons that are taking place across Africa, which can take place
+          either virtually or in person.
         </p>
 
-        <div className='max-w-md mt-7 font-bold'>
+        <div className='max-w-md mt-4 font-bold'>
           <Link
             href='/hackathons'
             className='bg-[#FF761C] px-6 text-white py-4 rounded-md text-center block'
