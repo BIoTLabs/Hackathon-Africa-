@@ -78,7 +78,7 @@ export default function HackathonsCard({ hackathons }: Props) {
           either virtually or in person.
         </p>
 
-        <div className='max-w-md mt-4 font-bold'>
+        <div className='w-full mt-4 font-bold'>
           <Link
             href='/hackathons'
             className='bg-[#FF761C] px-6 text-white py-4 rounded-md text-center block'
