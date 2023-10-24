@@ -11,7 +11,7 @@ export default function GrantsList({ grants }: Props) {
   return (
     <section className='px-5 py-10 lg:py-24 flex items-center sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 xxl:px-96'>
       <div className='lg:w-6/12 w-full lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
-        {grants.map((grant: any) => (
+        {grants.map((grant) => (
           <Link
             href={`/grant/${grant.slug}`}
             className='p-2 border mb-3 rounded-lg shadow-sm bg-white border-gray-300 sm:w-fit md:w-full transform hover:scale-105 transition duration-300 hover:border-orange-300'

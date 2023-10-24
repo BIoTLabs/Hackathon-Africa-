@@ -12,7 +12,9 @@ type AllHackathon = {
   applicants: string;
   type: string;
   text: string;
-  mainImage: string;
+  mainImage: {
+    type: string;
+  };
   prize: string;
   slug: {
     current: string;
@@ -24,7 +26,12 @@ type Grant = {
   title: string;
   reserve: string;
   grantRounds: string;
-  mainImage: string;
+  mainImage: {
+    type: string;
+  };
+  slug: {
+    current: string;
+  };
 };
 
 type Hackathons = {
@@ -33,7 +40,9 @@ type Hackathons = {
   text: string;
   description: string;
   prize: string;
-  mainImage: string;
+  mainImage: {
+    type: string;
+  };
   slug: {
     current: string;
   };
@@ -54,6 +63,9 @@ type Airdrop = {
   daysLeft: string;
   slug: {
     current: string;
+  };
+  mainImage: {
+    type: string;
   };
   Claimable: string;
   airdropLink: string;
