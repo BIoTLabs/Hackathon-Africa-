@@ -70,7 +70,7 @@ export async function getBounties(): Promise<Bounties[]> {
   );
 }
 
-//👉 Fetch all bounties
+//👉 Fetch all airdrops
 export async function getAirdrops(): Promise<Airdrop[]> {
   return client.fetch(
     groq`
@@ -85,6 +85,19 @@ export async function getAirdrops(): Promise<Airdrop[]> {
       safety,
       "mainImage": mainImage.asset->url, 
       "slug":slug.current,
+    }
+    `
+  );
+}
+
+export async function getHeroInfo(): Promise<Hero[]> {
+  return client.fetch(
+    groq`
+    *[_type == "hero"] {
+      title,
+      heroHeading,
+      heroText,
+      "heroImage": heroImage.asset->url, 
     }
     `
   );

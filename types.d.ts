@@ -60,3 +60,10 @@ type Airdrop = {
   claimDate: string;
   safety: string;
 };
+
+type Hero = {
+  title: string;
+  heroHeading: string;
+  heroText: string;
+  heroImage: string;
+};
