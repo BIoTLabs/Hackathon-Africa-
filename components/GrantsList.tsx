@@ -53,12 +53,11 @@ export default function GrantsList({ grants }: Props) {
           Popular <span className='textGradient'>Grants</span>
         </h2>
         <p className='mt-4 text-base md:text-xl !leading-10 mb-10 text-gray-500 lg:max-w-lg sm:line-clamp-2 lg:line-clamp-none md:line-clamp-none xxl:line-clamp-none'>
-          Participate in hackathons and team up to build the next world-changing
-          product. Hackathons encourage out-of-the-box thinking from people.
-          Hackathons are great for skill development. You'll have the
-          opportunity to learn technical skills from coding and software
-          development to project management. Many hackathons also have
-          workshops.
+          Web3 grants programs are instrumental in driving the rapid evolution
+          of blockchain and decentralized technologies. They not only provide a
+          financial lifeline to innovative projects but also serve as a
+          testament to the collaborative spirit and shared vision of a
+          decentralized, interconnected future.
         </p>
       </div>
     </section>

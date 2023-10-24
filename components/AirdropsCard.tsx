@@ -61,11 +61,11 @@ export default function AirdropsCard({ airdrops }: Props) {
           Claimable <span className='textGradient'>Airdrops</span>
         </h2>
         <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-md'>
-          Participate in airdrops and team up to build the next world-changing
-          product. airdrops encourage out-of-the-box thinking from people.
-          airdrops are great for skill development. You'll have the opportunity
-          to learn technical skills from coding and software development to
-          project management. Many airdrops also have workshops
+          Web3 airdrops are a compelling and innovative way to distribute
+          cryptocurrency tokens and digital assets across the blockchain
+          ecosystem. They have gained popularity as a means to engage and reward
+          users within the Web3 space, and they offer a unique approach to
+          building communities and fostering adoption.
         </p>
 
         {/* <div className='max-w-md mt-7 font-bold'>
