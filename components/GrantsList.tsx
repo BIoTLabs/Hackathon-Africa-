@@ -9,7 +9,7 @@ type Props = {
 
 export default function GrantsList({ grants }: Props) {
   return (
-    <section className='px-5 py-10 lg:py-24 flex sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 bg-[#FAFAFA] xxl:px-96'>
+    <section className='px-5 py-10 lg:py-24 flex items-center sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 xxl:px-96'>
       <div className='lg:w-6/12 w-full lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
         {grants.map((grant: any) => (
           <Link
@@ -48,7 +48,7 @@ export default function GrantsList({ grants }: Props) {
         ))}
       </div>
 
-      <div className='lg:w-7/12'>
+      <div className='lg:w-6/12'>
         <h2 className='md:text-4xl text-3xl font-bold mt-0'>
           Popular <span className='textGradient'>Grants</span>
         </h2>

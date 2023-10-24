@@ -8,8 +8,8 @@ type Props = {};
 export default function Partners({}: Props) {
   return (
     <div className='bg-[#FAFAFA] pb-40 xxl:px-96'>
-      <h1 className='font-bold text-center pt-20 text-3xl leading-tight md:text-[48px]'>
-        Our <span className='textGradient'>Partners</span>
+      <h1 className='font-bold md:px-10 pt-20 text-3xl leading-tight md:text-[48px]'>
+        Our Partners
       </h1>
       <div className='md:px-20 px-5 mt-5 md:mt-12 grid gap-x-4 lg:gap-0 grid-cols-2 md:grid-cols-4'>
         <Image

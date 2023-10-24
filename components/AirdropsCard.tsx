@@ -10,7 +10,7 @@ type Props = {
 export default function AirdropsCard({ airdrops }: Props) {
   return (
     // Change to link later
-    <section className='md:px-10 px-5 pt-10 py-10 lg:py-24 flex sm:flex-col-reverse lg:flex-row flex-col lg:space-x-10 xxl:px-96'>
+    <section className='md:px-10 px-5 pt-10 py-10 lg:py-24 flex sm:flex-col-reverse lg:flex-row flex-col lg:space-x-10 xxl:px-96 bg-[#FAFAFA]'>
       <div className='lg:w-8/12 w-full sm:mt-20 lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
         {airdrops.map((airdrop: any) => (
           <Link

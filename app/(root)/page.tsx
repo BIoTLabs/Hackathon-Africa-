@@ -14,8 +14,8 @@ export default function HomePage() {
       <AfterHero />
       <Hackathons />
       <Grants />
-      <Airdrops />
       <Bootcamps />
+      <Airdrops />
       <Bounties />
       <Partners />
     </>

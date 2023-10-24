@@ -11,7 +11,7 @@ export default function HackathonsCard({ hackathons }: Props) {
   return (
     <section className='md:px-10 px-5 mt-10 py-10 lg:py-24 flex sm:flex-col-reverse lg:flex-row flex-col lg:space-x-10 bg-[#FAFAFA] xxl:px-96'>
       <div className='lg:w-8/12 w-full sm:mt-20 lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
-        {hackathons.map((hackathon: any) => (
+        {hackathons.map((hackathon) => (
           <Link
             href={`/hackathon/${hackathon.slug}`}
             key={hackathon._id}
@@ -20,7 +20,7 @@ export default function HackathonsCard({ hackathons }: Props) {
             <div className='md:flex space-x-4 items-center'>
               <div>
                 <Image
-                  src={urlForImage(hackathon?.mainImage).url()}
+                  src={urlForImage(hackathon.mainImage).url()}
                   width={300}
                   height={300}
                   alt='image'
@@ -81,7 +81,7 @@ export default function HackathonsCard({ hackathons }: Props) {
         <div className='w-full mt-4 font-bold'>
           <Link
             href='/hackathons'
-            className='bg-[#FF761C] px-6 text-white py-4 rounded-md text-center block'
+            className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center block'
           >
             View All Hackathons
           </Link>
