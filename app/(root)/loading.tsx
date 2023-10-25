@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <div className='text-center grid place-items-center h-screen'>
+    <div className='text-center grid place-items-center h-screen bg-[#FAFAFA]'>
       <div role='status'>
         <svg
           aria-hidden='true'
@@ -18,7 +18,7 @@ export default function Loading() {
             fill='currentFill'
           />
         </svg>
-        <span className='text-2xl'>Loading...</span>
+        <span className='text-xl'>Loading...</span>
       </div>
     </div>
   );

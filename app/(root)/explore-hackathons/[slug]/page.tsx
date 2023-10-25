@@ -27,7 +27,7 @@ export default async function ExlporeHackathonsDetails({
         <Image
           src={urlForImage(hackathon?.mainImage).url()}
           alt='image'
-          className='object-cover opacity-30'
+          className='object-cover opacity-10'
           fill
         />
 

@@ -10,7 +10,7 @@ type Props = {
 export default function HackathonsCard({ hackathons }: Props) {
   return (
     <section className='md:px-10 px-5 mt-10 py-10 lg:py-24 flex sm:flex-col-reverse lg:flex-row flex-col lg:space-x-10 bg-[#FAFAFA] xxl:px-96'>
-      <div className='lg:w-8/12 w-full sm:mt-20 lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
+      <div className='lg:w-6/12 w-full sm:mt-20 lg:mt-10 grid-cols-2 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
         {hackathons.map((hackathon) => (
           <Link
             href={`/hackathon/${hackathon.slug}`}
@@ -35,9 +35,9 @@ export default function HackathonsCard({ hackathons }: Props) {
                     : hackathon.title}
                 </h2>
                 <div className='flex space-x-5 items-center mt-1 sm:my-3 sm:mb-3'>
-                  <div className='text-[#FF761C] flex items-center font-bold'>
+                  {/* <div className='text-[#FF761C] flex items-center font-bold'>
                     <BsClock className='mr-1.5 w-4 h-4' /> {hackathon.type}
-                  </div>
+                  </div> */}
 
                   <p>
                     <span className='text-[#FF761C] font-bold'>
@@ -67,21 +67,23 @@ export default function HackathonsCard({ hackathons }: Props) {
         ))}
       </div>
 
-      <div className='lg:w-4/12 w-full flex flex-col'>
+      <div className='lg:w-6/12 w-full flex flex-1 flex-col !mr-auto'>
         <h2 className='md:text-4xl text-3xl font-bold sm:mt-10 mt-0'>
           Ongoing <span className='textGradient'>Hackathons</span>
         </h2>
-        <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-md'>
+        <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 lg:max-w-mxl'>
           Participate in ongoing hackathons across Africa and team up to build a
           world-changing product. Take a look at the latest Web2 and Web3
           hackathons that are taking place across Africa, which can take place
-          either virtually or in person.
+          either virtually or in person. Join a team and build the next world
+          class product using different technologies and tools to showcase your
+          unique Web2 and web3 digital skills.
         </p>
 
-        <div className='w-full mt-4 font-bold'>
+        <div className='max-w-md mt-4 font-bold'>
           <Link
             href='/hackathons'
-            className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center block'
+            className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center'
           >
             View All Hackathons
           </Link>
