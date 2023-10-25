@@ -29,12 +29,12 @@ export default function GrantsList({ grants }: Props) {
               </div>
 
               <div className='flex flex-col'>
-                <h2 className='flex-start text-[22px] sm:mt-2 font-semibold line-clamp-1 text-[#FF761C]'>
+                <h2 className='flex-start text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
                   {grant.title}
                 </h2>
                 <div className='flex flex-col py-2 sm:mb-2'>
                   <div className='flex gap-x-1 items-center text-gray-500'>
-                    <TbMoneybag className='text-[#FF761C] h-5 w-5' />
+                    <TbMoneybag className='text-[#FF761C] h-5 w-5' />$
                     {grant.reserve}
                   </div>
                   <p className='mt-2 flex gap-x-1 items-center text-gray-500'>
@@ -53,11 +53,11 @@ export default function GrantsList({ grants }: Props) {
           Popular <span className='textGradient'>Grants</span>
         </h2>
         <p className='mt-4 text-base md:text-xl !leading-10 mb-10 text-gray-500 lg:max-w-lg sm:line-clamp-2 lg:line-clamp-none md:line-clamp-none xxl:line-clamp-none'>
-          Web3 grants programs are instrumental in driving the rapid evolution
-          of blockchain and decentralized technologies. They not only provide a
-          financial lifeline to innovative projects but also serve as a
-          testament to the collaborative spirit and shared vision of a
-          decentralized, interconnected future.
+          Web3 grants programs are super important in driving the fast-paced
+          progress of blockchain and decentralized technologies. Not only do
+          they provide valuable financial support to innovative projects, but
+          they also showcase the power of collaboration and a shared vision for
+          a decentralized and interconnected future.
         </p>
       </div>
     </section>

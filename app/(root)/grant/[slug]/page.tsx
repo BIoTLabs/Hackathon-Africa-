@@ -24,7 +24,7 @@ export default async function GrantDetails({ params: { slug } }: Props) {
         <Image
           src={urlForImage(grant?.mainImage).url()}
           alt='image'
-          className='object-cover opacity-30'
+          className='object-cover opacity-10'
           fill
         />
 
