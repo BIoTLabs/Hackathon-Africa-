@@ -11,13 +11,13 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <AfterHero />
+      {/* <AfterHero />
       <Hackathons />
       <Grants />
       <Bootcamps />
       <Airdrops />
       <Bounties />
-      <Partners />
+      <Partners /> */}
     </>
   );
 }
