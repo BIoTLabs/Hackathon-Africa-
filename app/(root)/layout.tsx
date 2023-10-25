@@ -3,7 +3,6 @@ import type { Metadata } from 'next';
 import { Manrope } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import NavbarTwo from '@/components/NavbarTwo';
 
 const manrope = Manrope({ subsets: ['latin'] });
 

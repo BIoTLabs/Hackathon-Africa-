@@ -1,7 +1,6 @@
 'use client';
 
-import Image from 'next/image';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 
 export default function Bootcamps() {
   return (
