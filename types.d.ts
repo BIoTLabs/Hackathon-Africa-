@@ -60,6 +60,7 @@ type Airdrop = {
   _id: number;
   title: string;
   type: string;
+  text: string;
   daysLeft: string;
   slug: {
     current: string;

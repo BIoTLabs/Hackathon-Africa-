@@ -78,6 +78,7 @@ export async function getAirdrops(): Promise<Airdrop[]> {
       _id,
       title,
       daysLeft,
+      text,
       type,
       Claimable,
       airdropLink,

@@ -44,6 +44,12 @@ export default defineType({
       title: 'Days Left',
       type: 'string',
     }),
+    // Airdrop description
+    defineField({
+      name: 'text',
+      title: 'Text',
+      type: 'text',
+    }),
     defineField({
       name: 'claimable',
       title: 'Claimable',
