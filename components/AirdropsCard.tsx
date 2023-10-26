@@ -49,7 +49,7 @@ export default function AirdropsCard({ airdrops }: Props) {
 
         <div className='lg:w-5/12 w-full ml-4'>
           <h2 className='md:text-4xl text-3xl font-bold'>
-            Claimable <span className='textGradient'>airdrops</span>
+            Claimable <span className='textGradient'>Airdrops</span>
           </h2>
           <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 xxl:max-w-xl'>
             Web3 airdrops are a compelling and innovative way to distribute

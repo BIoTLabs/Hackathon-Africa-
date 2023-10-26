@@ -8,7 +8,7 @@ export default async function BountiesPage({}: Props) {
   const bounties = await getBounties();
 
   return (
-    <div className='md:px-20 px-5 pb-16 bg-[#23252E] rounded-2xl border border-orange-100 shadow-lg w-full xxl:px-96'>
+    <div className='md:px-20 px-5 py-5 pb-20 bg-[#23252E] rounded-2xl border border-orange-100 shadow-lg w-full xxl:px-96'>
       <div className='pb-5 md:pb-10'>
         <h2 className='md:text-5xl text-3xl font-bold sm:mt-10 mt-0 textGradient'>
           Bounties
