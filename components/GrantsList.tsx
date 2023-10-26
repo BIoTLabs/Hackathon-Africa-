@@ -54,7 +54,7 @@ export default function GrantList({ grants }: Props) {
             world-changing product. Take a look at the latest Web2 and Web3
             grants that are taking place across Africa, which can take place
             either virtually or in person. Join a team and build the next world
-            class product.
+            class product with other team members across Africa.
           </p>
         </div>
       </div>
