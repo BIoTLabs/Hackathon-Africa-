@@ -13,11 +13,11 @@ export default async function HomePage() {
       <Hero />
       <AfterHero />
       <Hackathons />
-      {/* <Grants />
-      <Bootcamps />
+      <Grants />
+      {/* <Bootcamps /> */}
       <Airdrops />
       <Bounties />
-      <Partners /> */}
+      <Partners />
     </>
   );
 }

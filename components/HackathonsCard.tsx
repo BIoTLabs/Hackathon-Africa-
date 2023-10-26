@@ -22,7 +22,7 @@ export default function HackathonsCard({ hackathons }: Props) {
                 width={200}
                 height={200}
                 alt='image'
-                className='rounded-lg object-cover'
+                className='rounded-lg object-cover mb-2'
               />
 
               <div className='ml-3'>
@@ -60,7 +60,7 @@ export default function HackathonsCard({ hackathons }: Props) {
           ))}
         </div>
 
-        <div className='lg:w-4/12 w-full ml-4'>
+        <div className='lg:w-5/12 w-full ml-4'>
           <h2 className='md:text-4xl text-3xl font-bold'>
             Ongoing <span className='textGradient'>Hackathons</span>
           </h2>
@@ -69,10 +69,11 @@ export default function HackathonsCard({ hackathons }: Props) {
             a world-changing product. Take a look at the latest Web2 and Web3
             hackathons that are taking place across Africa, which can take place
             either virtually or in person. Join a team and build the next world
-            class product.
+            class product using different technologies and tools and get to win
+            amazing prizes with other team.
           </p>
 
-          <div className='max-w-md mt-4 font-bold'>
+          <div className='max-w-md my-4 font-bold'>
             <Link
               href='/hackathons'
               className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center'

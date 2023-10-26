@@ -1,34 +1,32 @@
-import { urlForImage } from '@/sanity/lib/image';
 import Image from 'next/image';
 import Link from 'next/link';
+import { urlForImage } from '@/sanity/lib/image';
 import { TbPigMoney, TbMoneybag } from 'react-icons/tb';
 
 type Props = {
   grants: Grant[];
 };
 
-export default function GrantsList({ grants }: Props) {
+export default function GrantList({ grants }: Props) {
   return (
-    <section className='px-5 md:px-20 py-10 lg:py-24 flex items-center sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 xxl:px-96'>
-      <div className='lg:w-6/12 w-full lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
-        {grants.map((grant) => (
-          <Link
-            href={`/grant/${grant.slug}`}
-            className='p-2 border mb-3 rounded-lg shadow-sm bg-white border-gray-300 sm:w-fit md:w-full transform hover:scale-105 transition duration-300 hover:border-orange-300'
-            key={grant._id}
-          >
-            <div className='md:flex space-x-4 items-center'>
-              <div>
-                <Image
-                  src={urlForImage(grant?.mainImage).url()}
-                  width={300}
-                  height={300}
-                  alt='image'
-                  className='rounded-md'
-                />
-              </div>
+    <div className='grid grid-cols-1 px-5 md:px-10 xxl:px-96 py-10 lg:py-24'>
+      <div className='flex gap-8 lg:flex-row-reverse flex-col-reverse'>
+        <div className='lg:w-6/12 w-full border border-gray-300 rounded-lg divide-y md:px-4 py-8 bg-white'>
+          {grants.map((grant) => (
+            <Link
+              key={grant._id}
+              href={`/grant/${grant.slug}`}
+              className='flex p-3 transform hover:scale-105 transition duration-300 hover:shadow-lg hover:rounded-lg'
+            >
+              <Image
+                src={urlForImage(grant.mainImage).url()}
+                width={200}
+                height={200}
+                alt='image'
+                className='rounded-lg object-cover'
+              />
 
-              <div className='flex flex-col'>
+              <div className='flex flex-col ml-3'>
                 <h2 className='flex-start text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
                   {grant.title}
                 </h2>
@@ -43,23 +41,23 @@ export default function GrantsList({ grants }: Props) {
                   </p>
                 </div>
               </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+            </Link>
+          ))}
+        </div>
 
-      <div className='lg:w-6/12'>
-        <h2 className='md:text-4xl text-3xl font-bold mt-0'>
-          Popular <span className='textGradient'>Grants</span>
-        </h2>
-        <p className='mt-4 text-base md:text-xl !leading-10 mb-10 text-gray-500 lg:max-w-lg'>
-          Web3 grants programs are super important in driving the fast-paced
-          progress of blockchain and decentralized technologies. Not only do
-          they provide valuable financial support to innovative projects, but
-          they also showcase the power of collaboration and a shared vision for
-          a decentralized and interconnected future.
-        </p>
+        <div className='lg:w-6/12 w-full'>
+          <h2 className='md:text-4xl text-3xl font-bold'>
+            Popular <span className='textGradient'>Grants</span>
+          </h2>
+          <p className='pt-4 text-base md:text-xl !leading-10 text-gray-500'>
+            Participate in ongoing grants across Africa and team up to build a
+            world-changing product. Take a look at the latest Web2 and Web3
+            grants that are taking place across Africa, which can take place
+            either virtually or in person. Join a team and build the next world
+            class product.
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

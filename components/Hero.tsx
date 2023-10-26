@@ -36,7 +36,8 @@ export default async function HeroPage() {
 
           <div className='lg:w-6/12 w-full pt-10 md:pt-20 lg:pt-16 md:mr-20 '>
             <Image
-              src={urlForImage(hero.heroImage).url()}
+              // src={urlForImage(hero.heroImage).url()}
+              src='/hero.png'
               width={800}
               height={800}
               alt='hero-image'
