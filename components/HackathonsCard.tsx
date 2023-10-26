@@ -27,7 +27,7 @@ export default function HackathonsCard({ hackathons }: Props) {
 
               <div className='ml-3'>
                 <div className='flex flex-1 items-center mt-3'>
-                  <h2 className='text-lg md:text-[22px] font-semibold line-clamp-1'>
+                  <h2 className='md:text-[22px] font-semibold line-clamp-1'>
                     {hackathon.title.length > 25
                       ? hackathon.title.substring(0, 25) + '...'
                       : hackathon.title}

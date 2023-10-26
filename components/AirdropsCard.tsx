@@ -28,7 +28,7 @@ export default function AirdropsCard({ airdrops }: Props) {
               />
 
               <div className='flex flex-col ml-3'>
-                <h2 className='flex-start text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
+                <h2 className='flex-start md:text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
                   {airdrop.title}
                 </h2>
 

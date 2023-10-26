@@ -27,7 +27,7 @@ export default function GrantList({ grants }: Props) {
               />
 
               <div className='flex flex-col ml-3'>
-                <h2 className='flex-start text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
+                <h2 className='flex-start md:text-[22px] sm:mt-2 font-semibold !line-clamp-1 text-[#FF761C]'>
                   {grant.title}
                 </h2>
                 <div className='flex flex-col py-2 sm:mb-2'>
