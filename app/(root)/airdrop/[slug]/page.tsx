@@ -33,7 +33,7 @@ export default async function AirdropDetails({ params: { slug } }: Props) {
           <h2 className='font-bold text-3xl md:text-5xl lg:text-[54px] text-center'>
             {airdrop.title}
           </h2>
-          <p className='text-xl line-clamp-2 max-w-4xl mx-auto px-16 mt-4 !leading-8'>
+          <p className='text-xl line-clamp-1 max-w-4xl mx-auto px-16 mt-4 !leading-8'>
             {airdrop.text}
           </p>
         </div>
