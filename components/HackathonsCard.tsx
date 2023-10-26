@@ -73,10 +73,10 @@ export default function HackathonsCard({ hackathons }: Props) {
             amazing prizes with other team.
           </p>
 
-          <div className='max-w-md my-4 font-bold'>
+          <div className='max-w-md mt-5 mb-10 font-bold'>
             <Link
               href='/hackathons'
-              className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center shadow-2xl'
+              className='bg-[#FF761C] px-6 text-white py-3.5 rounded-md text-center shadow-2xl'
             >
               View All Hackathons
             </Link>
