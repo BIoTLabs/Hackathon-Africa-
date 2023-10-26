@@ -9,7 +9,7 @@ type Props = {
 export default function HackathonsCard({ hackathons }: Props) {
   return (
     <div className='grid grid-cols-1 px-5 md:px-10 xxl:px-96 py-10 lg:py-24 bg-[#FAFAFA]'>
-      <div className='flex gap-8 lg:flex-row flex-col-reverse py-8'>
+      <div className='flex gap-8 lg:flex-row items-center flex-col-reverse py-8'>
         <div className='lg:w-7/12 w-full border border-gray-300 rounded-lg divide-y md:px-4 py-8 bg-white'>
           {hackathons.map((hackathon) => (
             <Link
@@ -64,7 +64,7 @@ export default function HackathonsCard({ hackathons }: Props) {
           <h2 className='md:text-4xl text-3xl font-bold'>
             Ongoing <span className='textGradient'>Hackathons</span>
           </h2>
-          <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500'>
+          <p className='mt-4 text-base md:text-xl !leading-10 text-gray-500 xxl:max-w-xl'>
             Participate in ongoing hackathons across Africa and team up to build
             a world-changing product. Take a look at the latest Web2 and Web3
             hackathons that are taking place across Africa, which can take place
@@ -76,7 +76,7 @@ export default function HackathonsCard({ hackathons }: Props) {
           <div className='max-w-md my-4 font-bold'>
             <Link
               href='/hackathons'
-              className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center'
+              className='bg-[#FF761C] px-6 text-white py-3 rounded-md text-center shadow-2xl'
             >
               View All Hackathons
             </Link>

@@ -24,10 +24,10 @@ export default async function HeroPage() {
               hackathons.
             </p>
 
-            <div className='mt-7 mb-5'>
+            <div className='mt-7 mb-10'>
               <Link
                 href='/about'
-                className='bg-[#FF761C] px-10 text-white py-4 rounded-md'
+                className='bg-[#FF761C] px-10 text-white py-3.5 rounded-md shadow-2xl'
               >
                 About us
               </Link>

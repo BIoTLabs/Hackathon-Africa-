@@ -10,7 +10,9 @@ export default function AfterHero() {
           <h2 className='text-[#FF761C]'>{icon.icon}</h2>
           <h3 className='font-bold text-2xl md:text-3xl mt-4'>{icon.name}</h3>
           <div className='w-11/12'>
-            <p className='mt-2 text-lg leading-8 text-gray-500'>{icon.text}</p>
+            <p className='mt-2 text-lg leading-8 text-gray-500 max-w-xl'>
+              {icon.text}
+            </p>
           </div>
         </div>
       ))}

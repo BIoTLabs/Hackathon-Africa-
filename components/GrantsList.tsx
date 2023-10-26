@@ -10,7 +10,7 @@ type Props = {
 export default function GrantList({ grants }: Props) {
   return (
     <div className='grid grid-cols-1 px-5 md:px-10 xxl:px-96 py-10 lg:py-24'>
-      <div className='flex gap-8 lg:flex-row-reverse flex-col-reverse'>
+      <div className='flex gap-8 lg:flex-row-reverse items-center flex-col-reverse'>
         <div className='lg:w-6/12 w-full border border-gray-300 rounded-lg divide-y md:px-4 py-8 bg-white'>
           {grants.map((grant) => (
             <Link
@@ -49,7 +49,7 @@ export default function GrantList({ grants }: Props) {
           <h2 className='md:text-4xl text-3xl font-bold'>
             Popular <span className='textGradient'>Grants</span>
           </h2>
-          <p className='pt-4 text-base md:text-xl !leading-10 text-gray-500'>
+          <p className='pt-4 text-base md:text-xl !leading-10 text-gray-500 xxl:max-w-xl'>
             Participate in ongoing grants across Africa and team up to build a
             world-changing product. Take a look at the latest Web2 and Web3
             grants that are taking place across Africa, which can take place
