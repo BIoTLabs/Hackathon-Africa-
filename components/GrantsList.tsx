@@ -9,7 +9,7 @@ type Props = {
 
 export default function GrantsList({ grants }: Props) {
   return (
-    <section className='px-5 py-10 lg:py-24 flex items-center sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 xxl:px-96'>
+    <section className='px-5 md:px-20 py-10 lg:py-24 flex items-center sm:flex-col-reverse lg:flex-row-reverse flex-col md:space-x-10 xxl:px-96'>
       <div className='lg:w-6/12 w-full lg:mt-10 grid-cols-1 place-items-center grid md:grid-cols-2 lg:grid-cols-1 gap-x-3'>
         {grants.map((grant) => (
           <Link
@@ -52,7 +52,7 @@ export default function GrantsList({ grants }: Props) {
         <h2 className='md:text-4xl text-3xl font-bold mt-0'>
           Popular <span className='textGradient'>Grants</span>
         </h2>
-        <p className='mt-4 text-base md:text-xl !leading-10 mb-10 text-gray-500 lg:max-w-lg sm:line-clamp-2 lg:line-clamp-none md:line-clamp-none xxl:line-clamp-none'>
+        <p className='mt-4 text-base md:text-xl !leading-10 mb-10 text-gray-500 lg:max-w-lg'>
           Web3 grants programs are super important in driving the fast-paced
           progress of blockchain and decentralized technologies. Not only do
           they provide valuable financial support to innovative projects, but
