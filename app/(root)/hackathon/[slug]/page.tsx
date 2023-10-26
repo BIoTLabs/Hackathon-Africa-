@@ -66,11 +66,11 @@ export default async function HackathonDetails({ params: { slug } }: Props) {
       </div>
 
       <div className='max-w-5xl mx-auto my-10 lg:my-18 px-5'>
-        <Link href='/'>
+        <Link href='/' className='lg:hidden'>
           <IoArrowBackCircleOutline className='h-8 w-8 text-gray-500 hover:text-[#FF761C]' />
         </Link>
 
-        <p className='md:text-xl mt-5 !leading-8 text-gray-500'>
+        <p className='md:text-xl mt-5 !leading-10 text-gray-500'>
           {hackathon.text}
         </p>
         <div className='max-w-md mt-5 mb-10 font-bold'>
