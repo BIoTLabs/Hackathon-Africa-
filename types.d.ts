@@ -37,16 +37,33 @@ type Grant = {
 type Hackathons = {
   _id: number;
   title: string;
+  builds: string;
+  applicants: string;
+  type: string;
+  daysLeft: string;
   text: string;
-  description: string;
-  prize: string;
   mainImage: {
     type: string;
   };
+  prize: string;
   slug: {
     current: string;
   };
 };
+
+// type Hackathons = {
+//   _id: number;
+//   title: string;
+//   text: string;
+//   description: string;
+//   prize: string;
+//   mainImage: {
+//     type: string;
+//   };
+//   slug: {
+//     current: string;
+//   };
+// };
 
 type Bounties = {
   _id: number;

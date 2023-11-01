@@ -45,6 +45,8 @@ export async function getHackathons(): Promise<Hackathons[]> {
       _id,
       title,
       text,
+      type,
+      daysLeft,
       description,
       prize,
       "slug":slug.current,

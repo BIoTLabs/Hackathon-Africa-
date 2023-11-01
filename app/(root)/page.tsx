@@ -7,6 +7,8 @@ import Partners from '@/components/Partners';
 import Airdrops from '@/components/Airdrops';
 import Bootcamps from '@/components/Bootcamps';
 
+export const dynamic = 'force-dynamic';
+
 export default async function HomePage() {
   return (
     <>
@@ -14,7 +16,7 @@ export default async function HomePage() {
       <AfterHero />
       <Hackathons />
       <Grants />
-      {/* <Bootcamps /> */}
+      <Bootcamps />
       <Airdrops />
       <Bounties />
       <Partners />

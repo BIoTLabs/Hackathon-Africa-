@@ -14,11 +14,11 @@ export default async function HeroPage() {
           className='bg-[#FAFAFA] pb-20 flex items-center lg:flex-row flex-col'
         >
           <div className='md:px-20 px-5 pt-10 md:pt-20 lg:w-7/12 w-full xxl:px-96'>
-            <h1 className='text-3xl md:text-[56px] font-bold max-w-2xl leading-tight'>
+            <h1 className='text-3xl text-balance md:text-[56px] font-bold max-w-2xl leading-tight'>
               Jumpstarting <span className='textGradient'>Africa's</span>{' '}
               Digital Transformation
             </h1>
-            <p className='mt-4 text-lg lg:max-w-md max-w-xl text-gray-500 leading-8'>
+            <p className='mt-4 text-lg lg:max-w-md max-w-xl text-gray-500 leading-8 text-balance'>
               Deep initiative to foster Web2 and Web3 adoption across Africa.
               Significantly promoting blockchain adoption through bootcamps and
               hackathons.
